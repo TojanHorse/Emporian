@@ -1,0 +1,49 @@
+
+
+.leftSection{
+    width: 50%;
+    max-width: 100vh;
+}
+
+.PicBig img{
+    width: 170px;
+    height: 240px;
+    object-fit: cover;
+    grid-area: pic1;
+}
+
+.PicSmall img{
+    width: 170px;
+    height: 192px;
+    object-fit: cover;
+    grid-area: pic2;
+}
+
+
+.picContainer{
+    display: flex;
+    margin-top: 53px;
+   
+}
+
+.leftSection{
+    margin-left: 64px;
+    
+}
+
+.SignUpContainer{
+    margin-top: 123px;
+    display: flex;
+}
+
+.PictureFlex1{
+    display: flex;
+    flex-direction: column;
+}
+
+.PictureFlex2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
